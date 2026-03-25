@@ -14,21 +14,4 @@ nodes:
   image: kindest/node:v1.35.0
 
 - role: worker
-=======
-kind: Cluster
-
-apiVersion: kind.x-k8s.io/v1alpha4
-
-name: kindcluster
-
-nodes: 
-# three node (two workers) cluster config
-- role: control-plane
-  image: kindest/node:v1.35.0
-
-- role: worker
-  image: kindest/node:v1.35.0
-
-- role: worker
->>>>>>> d9c3c083c98db04ff1d5b5a877b2abd979056b21
   image: kindest/node:v1.35.0
